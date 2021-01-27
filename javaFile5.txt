@@ -1,0 +1,225 @@
+@Test
+public void divide () {
+	int a = "1";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = MATH.INF;
+	int res = obj.divide(a);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "1";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 1.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "1";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 0.001;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "1";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 0.001001001001001001;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "1";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 0.002;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "2";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = MATH.INF;
+	int res = obj.divide(a);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "2";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 2.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "2";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 0.002;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "2";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 0.002002002002002002;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "2";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 0.004;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "10000";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = MATH.INF;
+	int res = obj.divide(a);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "10000";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 10000.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "10000";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 10.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "10000";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 10.01001001001001;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "10000";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 20.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "9999";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = MATH.INF;
+	int res = obj.divide(a);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "9999";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 9999.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "9999";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 9.999;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "9999";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 10.00900900900901;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "9999";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 19.998;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "5000";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = MATH.INF;
+	int res = obj.divide(a);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "5000";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 5000.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "5000";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 5.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "5000";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 5.005005005005005;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void divide () {
+	int a = "5000";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 10.0;
+	int res = obj.divide(a,b);
+	assertEquals(exp,res);
+}

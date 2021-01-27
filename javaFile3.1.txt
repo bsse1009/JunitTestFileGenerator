@@ -1,0 +1,1250 @@
+@Test
+public void add () {
+	int a = "1";
+	int b = 0;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 6;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 0;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 7;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 0;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 0;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 0;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 2503;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 1;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 7;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 1;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 8;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 1;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 1;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 1;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 2504;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 100000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 100000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 100000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 100000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 100000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 102503;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 99999;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 99999;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 99999;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 99999;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 104999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 99999;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 102502;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 50000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 50006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 50000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 50007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 50000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 55001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 50000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 55000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1";
+	int b = 50000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 52503;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 0;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 7;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 0;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 8;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 0;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 0;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 0;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 2504;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 1;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 8;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 1;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 9;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 1;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5003;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 1;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 1;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 2505;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 100000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 100000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100008;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 100000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 100000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 100000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 102504;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 99999;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 99999;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 99999;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 99999;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 99999;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 102503;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 50000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 50007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 50000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 50008;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 50000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 55002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 50000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 55001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "2";
+	int b = 50000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 52504;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 0;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 1005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 0;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 1006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 0;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 6000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 0;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 0;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3502;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 1;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 1006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 1;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 1007;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 1;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 6001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 1;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 6000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 1;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3503;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 100000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 101005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 100000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 101006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 100000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 106000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 100000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 100000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103502;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 99999;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 101004;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 99999;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 101005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 99999;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 99999;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105998;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 99999;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103501;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 50000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 51005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 50000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 51006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 50000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 56000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 50000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 55999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "1000";
+	int b = 50000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 53502;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 0;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 1004;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 0;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 1005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 0;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 0;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5998;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 0;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3501;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 1;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 1005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 1;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 1006;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 1;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 6000;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 1;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 1;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3502;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 100000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 101004;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 100000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 101005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 100000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 100000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105998;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 100000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103501;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 99999;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 101003;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 99999;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 101004;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 99999;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105998;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 99999;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105997;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 99999;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103500;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 50000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 51004;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 50000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 51005;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 50000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 55999;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 50000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 55998;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "999";
+	int b = 50000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 53501;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 0;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 505;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 0;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 506;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 0;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5500;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 0;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5499;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 0;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 1;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 506;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 1;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 507;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 1;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 5501;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 1;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 5500;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 1;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 3003;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 100000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100505;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 100000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100506;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 100000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105500;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 100000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105499;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 100000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 99999;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 100504;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 99999;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 100505;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 99999;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 105499;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 99999;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 105498;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 99999;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 103001;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 50000;
+	int c = 5;
+	Calculator obj = new Calculator();
+	int exp = 50505;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 50000;
+	int c = 6;
+	Calculator obj = new Calculator();
+	int exp = 50506;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 50000;
+	int c = 5000;
+	Calculator obj = new Calculator();
+	int exp = 55500;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 50000;
+	int c = 4999;
+	Calculator obj = new Calculator();
+	int exp = 55499;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}
+@Test
+public void add () {
+	int a = "500";
+	int b = 50000;
+	int c = 2502;
+	Calculator obj = new Calculator();
+	int exp = 53002;
+	int res = obj.add(a,b,c);
+	assertEquals(exp,res);
+}

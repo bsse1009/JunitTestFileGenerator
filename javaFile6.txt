@@ -1,0 +1,225 @@
+@Test
+public void multiply () {
+	int a = "1";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = 0;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "1";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 1;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "1";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 1000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "1";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 999;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "1";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 500;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "2";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = 0;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "2";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 2;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "2";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 2000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "2";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 1998;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "2";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 1000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "10000";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = 0;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "10000";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 10000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "10000";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 10000000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "10000";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 9990000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "10000";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 5000000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "9999";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = 0;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "9999";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 9999;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "9999";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 9999000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "9999";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 9989001;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "9999";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 4999500;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "5000";
+	int b = 0;
+	Calculator obj = new Calculator();
+	int exp = 0;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "5000";
+	int b = 1;
+	Calculator obj = new Calculator();
+	int exp = 5000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "5000";
+	int b = 1000;
+	Calculator obj = new Calculator();
+	int exp = 5000000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "5000";
+	int b = 999;
+	Calculator obj = new Calculator();
+	int exp = 4995000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}
+@Test
+public void multiply () {
+	int a = "5000";
+	int b = 500;
+	Calculator obj = new Calculator();
+	int exp = 2500000;
+	int res = obj.multiply(a,b);
+	assertEquals(exp,res);
+}

@@ -1,0 +1,40 @@
+@Test
+public void getGPA () {
+	int a = "A";
+	GradeCalculator obj = new GradeCalculator();
+	int exp = 3.5;
+	int res = obj.getGPA(a);
+	assertEquals(exp,res);
+}
+@Test
+public void getGPA () {
+	int a = "B";
+	GradeCalculator obj = new GradeCalculator();
+	int exp = 3.0;
+	int res = obj.getGPA(a);
+	assertEquals(exp,res);
+}
+@Test
+public void getGPA () {
+	int a = "F";
+	GradeCalculator obj = new GradeCalculator();
+	int exp = 0.0;
+	int res = obj.getGPA(a);
+	assertEquals(exp,res);
+}
+@Test
+public void getGPA () {
+	int a = "E";
+	GradeCalculator obj = new GradeCalculator();
+	int exp = 0.0;
+	int res = obj.getGPA(a);
+	assertEquals(exp,res);
+}
+@Test
+public void getGPA () {
+	int a = "C";
+	GradeCalculator obj = new GradeCalculator();
+	int exp = 2.0;
+	int res = obj.getGPA(a);
+	assertEquals(exp,res);
+}
